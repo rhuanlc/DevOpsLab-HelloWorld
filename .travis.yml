@@ -20,5 +20,7 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: $HEROKU_API_KEY
+    secure: ad1eb653-25d9-4da6-ae2b-222bee6640b8
   app: devops-tests
+  on:
+    repo: rhuanlc/devops-tests
